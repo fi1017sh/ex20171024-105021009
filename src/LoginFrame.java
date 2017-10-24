@@ -57,5 +57,10 @@ public class LoginFrame extends JFrame {
         cp.add(jtfpw);
         cp.add(jbexit);
         cp.add(jblogin);
+
+    }
+    public void reset(){
+        jtfid.setText("");
+        jtfpw.setText("");
     }
 }
