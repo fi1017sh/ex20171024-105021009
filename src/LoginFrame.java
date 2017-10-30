@@ -41,7 +41,7 @@ public class LoginFrame extends JFrame {
         jblogin.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(jtfid.getText().equals("a") && new String(jtfpw.getPassword()).equals("a")){
+                if(jtfid.getText().equals("h304") && new String(jtfpw.getPassword()).equals("23323456")){
                     MainFrame mf = new MainFrame(LoginFrame.this);
                     mf.setVisible(true);
                     LoginFrame.this.setVisible(false);
