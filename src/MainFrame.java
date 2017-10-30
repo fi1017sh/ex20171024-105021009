@@ -31,7 +31,7 @@ public class MainFrame extends JFrame {
 
     private JPanel jplS = new JPanel(new GridLayout(1,2,3,3));
     private JButton jbC = new JButton("Close");
-    private JButton jbG = new JButton("Get");
+    private JButton jbG = new JButton("Generate");
 
 
     private LoginFrame loginFrame;
@@ -77,6 +77,7 @@ public class MainFrame extends JFrame {
             public void actionPerformed(ActionEvent actionEvent) {
                 jdp.add(jif);
                 jif.setVisible(true);
+                lotogame();
             }
         });
         jifcp.setLayout(new BorderLayout(5,5));
